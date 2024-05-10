@@ -1,0 +1,20 @@
+{
+  "name": "webpack-config-reference",
+  "version": "1.0.0",
+  "description": "This repository serves as a reference for various Webpack configurations tailored to different development needs and environments. Whether you're building a simple static site or a complex web application, you can find useful examples of how to configure Webpack effectively.",
+  "main": "app.js",
+  "scripts": {
+    "serve": "webpack-dev-server",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
